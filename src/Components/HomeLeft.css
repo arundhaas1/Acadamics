@@ -1,0 +1,133 @@
+.homeleft__img > img {
+  width: 90%;
+  margin: 70px 20px;
+}
+
+.homeleft__datas {
+  margin: 0px 20px;
+}
+
+.homeleft__datas > h1 {
+  font-family: "Raleway";
+  font-size: 30px;
+  color: rgb(56, 54, 54);
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  margin-bottom: 40px;
+  margin-top: 28px;
+}
+
+.homeleft__datas > p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+}
+
+.auth {
+  display: flex;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .auth {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.font {
+  /* margin-top: 12px; */
+  color: gray;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+}
+
+.auth > p {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+  letter-spacing: 1.4px;
+  line-height: 1.4;
+}
+
+.auth > img {
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .auth > img {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+.leftimages1 {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .leftimages1 {
+    width: 100%;
+  }
+}
+
+.leftimages1 > img {
+  margin-top: 30px;
+  height: 250px;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .leftimages1 > img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+.leftimages {
+  display: flex;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .leftimages {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.left__ {
+  margin-top: 25px;
+}
+
+.left__ > p {
+  line-height: 2.3;
+  color: gray;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+.font1 {
+  margin-top: 40px;
+  color: gray;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+}
+
+.placements{
+    background-color: #2e2d2d;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.placements >h1{
+    text-align: center;
+}
