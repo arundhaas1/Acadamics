@@ -1,0 +1,36 @@
+.banner {
+    background: url("https://raw.githubusercontent.com/vishal2612200/college-website-design/master/images/inner-page/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 55vh;
+    object-fit: cover;
+    
+}
+
+.banner__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.banner__img >h1{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner__img > h3{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.banner__img >h3 > span {
+    color: rgb(202, 61, 61);
+}
