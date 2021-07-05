@@ -12,8 +12,8 @@ function Home() {
            <Header />
            <Banner />
            <div className='leftright'>
-               <HomeLeft />
-               <HomeRight />
+               <HomeLeft className="left" />
+               <HomeRight className="right" />
            </div>
         </div>
     )

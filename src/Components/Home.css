@@ -1,8 +1,13 @@
 .leftright {
   display: flex;
-  width: 65vw;
+  width: 100vw;
   
 }
+
+.leftright{
+  width: 85%;
+}
+
 
 @media (max-width: 768px) {
   .leftright {
