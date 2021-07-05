@@ -1,0 +1,49 @@
+.aboutdata{
+    background: url("https://vishal2612200.github.io/college-website-design/images/home/slide-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutdata >h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.aboutdata >h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.aboutdata > button {
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    border-width: 1px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid rgb(199, 87, 87);
+    transition:background-color 1s ease-in-out;
+}
+
+.aboutdata > button:hover{
+   background-color:  rgb(199, 87, 87);
+   /* border: transparent; */
+}
+
+.aboutdata > button>span {
+    color: #fff;
+    font-size: 14px;
+}

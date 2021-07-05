@@ -20,8 +20,8 @@
 .homeleft__datas > p {
   margin-top: 12px;
   color: gray;
-  font-size: 14px;
-  letter-spacing: 1.1px;
+  font-size: 17px;
+  /* letter-spacing: 1.1px; */
   line-height: 1.5;
 }
 
@@ -40,8 +40,8 @@
 .font {
   /* margin-top: 12px; */
   color: gray;
-  font-size: 14px;
-  letter-spacing: 1.1px;
+  font-size: 17px;
+  /* letter-spacing: 1.1px; */
   line-height: 1.5;
 }
 
@@ -111,15 +111,15 @@
   line-height: 2.3;
   color: gray;
   font-size: 15px;
-  letter-spacing: 1.2px;
+  /* letter-spacing: 1.2px; */
 }
 
-.font1 {
+.font1 > p{
   margin-top: 40px;
   color: gray;
-  font-size: 14px;
-  letter-spacing: 1.1px;
-  line-height: 1.5;
+  font-size: 17px;
+  /* letter-spacing: 1.1px; */
+  line-height: 1.4;
 }
 
 .placements{
