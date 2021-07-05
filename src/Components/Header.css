@@ -2,7 +2,7 @@
     display: flex;
     background: #0000004D;
     width: 100%;
-    padding: 10px 7px;
+    padding: 10px 0px;
     position: fixed;
     top: 0;
     left: 0;
@@ -50,7 +50,7 @@
     }
 }
 
-@media only screen and (min-width:480px) and (max-width:1007px){
+@media only screen and (max-width:1007px){
     .menu{
         opacity: 1;
     }
