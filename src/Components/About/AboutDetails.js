@@ -5,7 +5,7 @@ function AboutDetails() {
   return (
     <div className="aboutdetails">
       <div className="detail__text">
-        <h2>ABOUT GBPEC</h2>
+        <h2>ABOUT GCE</h2>
         <div className="detail__border">
           <span></span>
         </div>

@@ -27,7 +27,7 @@
 
 @media (max-width: 768px) {
   .right__input > input {
-    width: 100%;
+    width: 77%;
     margin-top: 70px;
     padding-right: 70px;
     height: 65px;
@@ -35,7 +35,7 @@
 
   .right__input > button {
     margin-top: 67px;
-    width: 100%;
+    width: 91%;
     padding: 15px 0px;
     background-color: rgb(211, 58, 58);
     border: 1px solid rgb(211, 58, 58);
@@ -43,6 +43,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 50px;
+    
   }
 }
 

@@ -9,13 +9,17 @@ function Footer() {
   const toAbout = () => {
     history.push("/about");
   };
+
+  const toHome = () => {
+    history.push("/");
+  };
   return (
     <div className="header">
       <div className="header__logo">
         <img alt="" src="images/logo.png" />
       </div>
       <div className="header__list">
-        <p>HOME</p>
+        <p onClick={toHome}>HOME</p>
         <p onClick={toAbout}>ABOUT</p>
         <p>NOTICES</p>
         <p>EVENTS</p>
