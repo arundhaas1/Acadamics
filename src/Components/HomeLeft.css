@@ -18,7 +18,7 @@
 }
 
 .homeleft__datas > h1 {
-  font-family: "Raleway";
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   color: rgb(56, 54, 54);
   padding-bottom: 20px;
@@ -143,4 +143,7 @@
   margin-top: 50px;
     text-align: center;
     height: 400px;
+    padding-top: 10px;
+    /* margin-bottom: 20px; */
+    /* font-family: 'Montserrat', sans-serif; */
 }
