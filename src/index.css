@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,11 +6,10 @@
 body {
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
-  
+  font-family: 'Montserrat', sans-serif;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -20,4 +19,3 @@ html {
   background-color: #f5f5f5;
   box-sizing: border-box;
 }
-
