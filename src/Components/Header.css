@@ -55,3 +55,25 @@
         opacity: 1;
     }
 }
+
+.toggle{
+    position:absolute;
+    right: 25px;
+    top: 70px;
+    /* height: 40px; */
+    background-color: rgb(143, 141, 141);
+}
+
+.toggle >p{
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(214, 208, 208);
+    transition: color 0.7s;
+}
+
+.toggle >p:hover{
+    color:rgb(0, 0, 0);
+}

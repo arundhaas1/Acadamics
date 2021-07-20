@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Header.css";
 import ListIcon from "@material-ui/icons/List";
 import { useHistory } from "react-router-dom";
 
 function Footer() {
   const history = useHistory();
+
+  const[Click,setClick]=useState(false);
 
   const toAbout = () => {
     history.push("/about");
@@ -17,6 +19,14 @@ function Footer() {
   const toEvent = () => {
     history.push("/event");
   };
+
+  const changeToogle=()=>{
+    if (Click===true) {
+      setClick(false)
+    } else {
+      setClick(true)
+    }
+  }
 
   return (
     <div className="header">
@@ -34,7 +44,20 @@ function Footer() {
         <p>ACADAMICS</p>
         <p>CONTACT</p>
       </div>
-      <ListIcon fontSize="large" className="menu" />
+      <ListIcon onClick={changeToogle} fontSize="large" className="menu" />
+
+     {Click ? 
+      <div className="toggle">
+      <p onClick={toHome}>HOME</p>
+      <p onClick={toAbout}>ABOUT</p>
+      <p>NOTICES</p>
+      <p onClick={toEvent}>EVENTS</p>
+      <p>PROJECTS</p>
+      <p>STUDENTS CORNER</p>
+      <p>PLACEMENTS</p>
+      <p>ACADAMICS</p>
+      <p>CONTACT</p>
+    </div> : null}
     </div>
   );
 }
