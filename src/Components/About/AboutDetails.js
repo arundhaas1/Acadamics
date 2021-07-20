@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutDetails.css";
+import Department from "./Department";
 
 function AboutDetails() {
   return (
@@ -87,6 +88,12 @@ function AboutDetails() {
           economic, political and cultural environment. To inculcate the habit
           and an attitude for life long learning in our students.
         </p>
+      </div>
+      <div className="about__dep">
+        <Department />
+        <Department />
+        <Department />
+        <Department />
       </div>
     </div>
   );

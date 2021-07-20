@@ -13,6 +13,11 @@ function Footer() {
   const toHome = () => {
     history.push("/");
   };
+
+  const toEvent = () => {
+    history.push("/event");
+  };
+
   return (
     <div className="header">
       <div className="header__logo">
@@ -22,7 +27,7 @@ function Footer() {
         <p onClick={toHome}>HOME</p>
         <p onClick={toAbout}>ABOUT</p>
         <p>NOTICES</p>
-        <p>EVENTS</p>
+        <p onClick={toEvent}>EVENTS</p>
         <p>PROJECTS</p>
         <p>STUDENTS CORNER</p>
         <p>PLACEMENTS</p>

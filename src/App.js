@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Home from './Components/Home'
 import About from './Components/About/About.js'
+import Event from './Components/Events/Event'
 import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
+          <Route path="/event" >
+            <Event/>
+          </Route>
           <Route path="/about">
             <About />
           </Route>
