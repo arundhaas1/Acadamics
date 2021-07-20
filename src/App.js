@@ -3,6 +3,7 @@ import "./App.css";
 import Home from './Components/Home'
 import About from './Components/About/About.js'
 import Event from './Components/Events/Event'
+import Header from './Components/Header'
 import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/event" >
+            <Header />
             <Event/>
           </Route>
           <Route path="/about">

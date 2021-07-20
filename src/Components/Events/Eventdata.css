@@ -1,0 +1,41 @@
+.eventdata {
+  margin-left: 30px;
+  /* overflow-x: hidden; */
+}
+
+
+.eventdata > h2 {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.eventdata > h4 {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.eventdata > h4 > span {
+  color: #9a28d7;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.eventdata:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+@media only screen and (max-width:1007px){
+    .eventdata {
+        
+        display: none;
+    }
+    
+}
