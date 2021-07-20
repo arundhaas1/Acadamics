@@ -1,0 +1,106 @@
+.banners {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner1{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.banner2{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+    margin-top: -80px;
+}
+
+.image__1 ,.image__3 , .image__5 , .image__6 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 70px;
+}
+.image__2 , .image__4{
+    margin-left: 45px;
+    margin-top: 70px;
+}
+
+.image__6{
+    margin-right: 120px;
+}
+
+.image__4{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.image__2{
+    margin-top: 300px;
+}
+
+.events1 {
+  height: 400px;
+  width: 344px;
+}
+
+.events2 {
+  width: 150px;
+  height: 190px;
+  margin-top: 15px;
+}
+
+.image__2 > img {
+
+  width: 100%;
+}
+
+.events3 {
+  width: 100%;
+}
+
+.image__4 > img {
+  width: 100%;
+}
+
+.events4 {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.events5 {
+  height: 402px;
+  width: 344px;
+}
+
+.events6 {
+  width: 150px;
+  margin-top: 15px;
+}
+
+.events7 {
+  display: block;
+  width: 100%;
+}
+
+.events8 {
+  width: 150px;
+  margin-top: 15px;
+}
+
+@media (max-width:768px){
+    banner1,
+    banner2,
+    .image__1,
+    .image__2,
+    .image__3,
+    .image__4,
+    .image__5,
+    .image__6,
+    .img{
+        margin: 20px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}

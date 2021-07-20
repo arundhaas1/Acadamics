@@ -1,0 +1,93 @@
+.event {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+.event__body {
+  display: flex;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.event__body . img {
+  object-fit: contain;
+}
+
+.event__bodydata {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.event__bodydata > h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+  color: #232127;
+}
+
+.event__bodydata > p {
+  margin: 50px 0px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #777777;
+}
+
+.event__bodybutt {
+  display: flex;
+}
+
+.event__1 , .event__3 {
+  background: linear-gradient(
+    270deg,
+    rgba(171, 0, 229, 1) 0%,
+    rgba(88, 20, 121, 1) 100%
+  );
+  padding: 18px 46px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  border: 0px solid transparent;
+}
+
+.event__2 {
+  padding: 16px 46px;
+  border: 2px solid #9a24c1;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  background: #231e23;
+  border-color: transparent;
+  color: #fff;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .event__body {
+    display: flex;
+    flex-direction: column;
+  }
+  .event__bodydata {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+  }
+}
+
+/* ///////// */
+
+.event__banners{
+  background: url("https://vishal2612200.github.io/college-website-design/agenda/images/featured-events-bg.jpg");
+  background-position: center;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
