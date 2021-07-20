@@ -2,6 +2,7 @@ import React from "react";
 import "./Event.css";
 import { useHistory } from "react-router-dom";
 import Banners from './Banners'
+import Next from './Next'
 // import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 function Event() {
@@ -35,6 +36,9 @@ function Event() {
       </div>
       <div className="event__banners">
           <Banners />
+     </div>
+     <div className="event__next">
+       <Next />
      </div>
     </div>
   );

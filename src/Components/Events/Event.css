@@ -11,7 +11,7 @@
   margin-bottom: 120px;
 }
 
-.event__body . img {
+.event__body > img {
   object-fit: contain;
 }
 
@@ -52,6 +52,7 @@
   line-height: 1;
   color: #fff;
   border: 0px solid transparent;
+  cursor: pointer;
 }
 
 .event__2 {
@@ -66,6 +67,7 @@
   color: #fff;
   margin-right: 40px;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -90,4 +92,28 @@
   background-size: cover;
   width: 100vw;
 }
+
+@media (max-width:768px){
+  .event__banners{
+    min-width: 100vw;
+  }
+  .event__1 , .event__2{
+    display: none;
+  }
+  .event__bodyimg > img {
+    width: 90vw;
+    /* height: 100px; */
+    object-fit: contain;
+  }
+
+  .event__bodydata > h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    line-height: 1;
+    color: #232127;
+  }
+  
+}
+
 

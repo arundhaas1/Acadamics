@@ -58,6 +58,7 @@
 .dep__butt > button:hover {
   color: #6f6f6f;
   background-position: left;
+  cursor: pointer;
 }
 
 .dep__butt > button > span {
