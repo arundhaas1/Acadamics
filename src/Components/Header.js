@@ -20,12 +20,12 @@ function Footer() {
     history.push("/event");
   };
 
+  const toProjects = () => {
+    history.push("/projects");
+  };
+
   const changeToogle=()=>{
-    if (Click===true) {
-      setClick(false)
-    } else {
-      setClick(true)
-    }
+    setClick(!Click)
   }
 
   return (
@@ -38,7 +38,7 @@ function Footer() {
         <p onClick={toAbout}>ABOUT</p>
         <p>NOTICES</p>
         <p onClick={toEvent}>EVENTS</p>
-        <p>PROJECTS</p>
+        <p onClick={toProjects}>PROJECTS</p>
         <p>STUDENTS CORNER</p>
         <p>PLACEMENTS</p>
         <p>ACADAMICS</p>
@@ -52,7 +52,7 @@ function Footer() {
       <p onClick={toAbout}>ABOUT</p>
       <p>NOTICES</p>
       <p onClick={toEvent}>EVENTS</p>
-      <p>PROJECTS</p>
+      <p onClick={toProjects}>PROJECTS</p>
       <p>STUDENTS CORNER</p>
       <p>PLACEMENTS</p>
       <p>ACADAMICS</p>

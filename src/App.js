@@ -4,7 +4,9 @@ import Home from './Components/Home'
 import About from './Components/About/About.js'
 import Event from './Components/Events/Event'
 import Header from './Components/Header'
+import Projects from "./Components/Projects/Projects";
 import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
+import Banner from './Components/Banner'
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/projects">
+            <Header />
+            <Banner />
+            <Projects />
           </Route>
           <Route path="/">
             <Home />
