@@ -6,3 +6,11 @@
 .project > img:hover{
 
 }
+
+@media (max-width: 768px) {
+    .project{
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
