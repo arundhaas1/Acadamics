@@ -8,8 +8,6 @@
   width: 360px;
   position: absolute;
   opacity:0 ;
-  /* top: 0;
-  bottom: 0; */
 }
 
 .project2:hover {
@@ -23,13 +21,3 @@
   }
 }
 
-/* @media (min-width: 769px) {
-    .project2 {
-        height: 260px;
-        width: 360px;
-        position: absolute;
-        opacity: 1;
-        bottom: 0;
-        top: 0;
-      }
-  } */
