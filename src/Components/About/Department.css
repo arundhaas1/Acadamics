@@ -69,6 +69,10 @@
   color: #fff;
 }
 
+.dep__butt > button:hover .dep__butt>button>span{
+  color: rgb(255, 255, 255);
+}
+
 @media (max-width: 768px) {
   .department > p {
     /* text-align: center; */
