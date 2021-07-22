@@ -1,0 +1,54 @@
+.societies {
+  position: relative;
+  margin-top: 50px;
+  border: 1px solid #808489;
+  text-align: center;
+  width: 340px;
+  height: 340px;
+}
+
+.societies__icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+  color: #808489;
+  font-size: 50px;
+}
+
+.societies > h2 {
+  color: #808489;
+  text-transform: capitalize;
+  margin-top: 33px;
+  /* height: 50%; */
+  text-align: center;
+}
+
+.societies > p {
+  color: #808489;
+  margin-top: 33px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  opacity: 0;
+}
+
+.societies > p:hover {
+  position: absolute;
+  display: flex;
+  color: rgb(255, 96, 96);
+  opacity: 1;
+}
+
+.societies__icon:hover {
+  color: rgb(255, 96, 96);
+}
+
+.societies:hover .societies>h2 {
+  color: rgb(255, 96, 96);
+}
+
+.societies:hover {
+  border: 2px solid rgb(255, 96, 96);
+}

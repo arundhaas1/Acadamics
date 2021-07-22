@@ -28,6 +28,11 @@ function Footer() {
     setClick(!Click)
   }
 
+  const toSociety = () => {
+    history.push("/society");
+  };
+  
+
   return (
     <div className="header">
       <div className="header__logo">
@@ -39,7 +44,7 @@ function Footer() {
         <p>NOTICES</p>
         <p onClick={toEvent}>EVENTS</p>
         <p onClick={toProjects}>PROJECTS</p>
-        <p>STUDENTS CORNER</p>
+        <p onClick={toSociety}>STUDENTS CORNER</p>
         <p>PLACEMENTS</p>
         <p>ACADAMICS</p>
         <p>CONTACT</p>
@@ -53,7 +58,7 @@ function Footer() {
       <p>NOTICES</p>
       <p onClick={toEvent}>EVENTS</p>
       <p onClick={toProjects}>PROJECTS</p>
-      <p>STUDENTS CORNER</p>
+      <p onClick={toSociety}>STUDENTS CORNER</p>
       <p>PLACEMENTS</p>
       <p>ACADAMICS</p>
       <p>CONTACT</p>
