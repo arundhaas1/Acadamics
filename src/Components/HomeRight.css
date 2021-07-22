@@ -144,7 +144,8 @@
 }
 
 .right__2p {
-  color: rgb(73, 62, 62);
+  color: rgba(121, 92, 92 ,0.7);
+  font-weight: bold;
   /* font-weight: 500; */
   font-size: 16px;
   cursor: pointer;
@@ -154,4 +155,5 @@
   margin-top: 7px;
   color: gray;
   font-size: 15px;
+
 }
