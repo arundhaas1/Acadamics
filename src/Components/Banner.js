@@ -6,7 +6,7 @@ function Banner() {
     <div className="banner">
       <div className="banner__img">
         <h1>SALEM ENGINEERING COLLEGE</h1>
-        <h3>About us <span>- Affiliated by AU</span></h3>
+        <h3>Developed by @<span> Arun Dhas</span></h3>
       </div>
     </div>
   );
