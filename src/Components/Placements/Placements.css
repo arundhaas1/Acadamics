@@ -1,0 +1,23 @@
+.team{
+    width: 100%;
+}
+
+.team >h1{
+    font-size: 36px;
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.team>p{
+    line-height: 26px;
+    font-size: 16px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}

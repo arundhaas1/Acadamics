@@ -1,0 +1,99 @@
+.plan {
+  background-color: #fff;
+  border: 1px solid #b6b6b6;
+  width: 28%;
+  height: auto;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+}
+
+.plan > h2 {
+  font-size: 24px;
+  color: #292929;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.plan > p {
+  font-weight: normal;
+  color: #6f6f6f;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .plan {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.plan > h3 {
+  
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  padding: 23px 0;
+  margin-bottom: 30px;
+}
+
+.plan>h3>span{
+    font-size: 15px;
+}
+
+.yellow{
+    background: #d6973d;
+}
+
+.blue{
+    background:#179680;
+}
+
+
+.plan__data {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.plan__data > p {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  font-weight: normal;
+  color: #6f6f6f;
+  font-size: 14px;
+}
+
+.gray {
+  background: #f7f8f4;
+}
+
+.plan > button {
+  background-color: #d73e4d;
+  border: 1px solid #d73e4d;
+  border: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: normal;
+  transition: all 0.6s ease-in-out;
+}
+
+.plan > button:hover {
+  background-color: #fff;
+  border: 1px solid #d73e4d;
+  color: #d73e4d;
+}
+
+@media (max-width:768px){
+    .plan{
+        width: 70%;
+    }
+}

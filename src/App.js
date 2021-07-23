@@ -7,7 +7,8 @@ import Header from "./Components/Header";
 import Projects from "./Components/Projects/Projects";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Banner from "./Components/Banner";
-import Society from "./Components/Society/Society";
+import Students from "./Components/Society/Students";
+import Placements from "./Components/Placements/Placements";
 
 function App() {
   return (
@@ -24,7 +25,12 @@ function App() {
           <Route path="/society">
             <Header />
             <Banner />
-            <Society />
+            <Students />
+          </Route>
+          <Route path="/placements">
+            <Header />
+            <Banner />
+            <Placements />
           </Route>
           <Route path="/projects">
             <Header />

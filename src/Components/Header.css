@@ -54,6 +54,7 @@
 @media only screen and (max-width:1007px){
     .menu{
         opacity: 1;
+        /* margin-right: 50px; */
     }
 }
 

@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import ListIcon from "@material-ui/icons/List";
 import { useHistory } from "react-router-dom";
@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 function Footer() {
   const history = useHistory();
 
-  const[Click,setClick]=useState(false);
+  const [Click, setClick] = useState(false);
 
   const toAbout = () => {
     history.push("/about");
@@ -24,14 +24,17 @@ function Footer() {
     history.push("/projects");
   };
 
-  const changeToogle=()=>{
-    setClick(!Click)
-  }
+  const toPlacements = () => {
+    history.push("/placements");
+  };
+
+  const changeToogle = () => {
+    setClick(!Click);
+  };
 
   const toSociety = () => {
     history.push("/society");
   };
-  
 
   return (
     <div className="header">
@@ -45,24 +48,25 @@ function Footer() {
         <p onClick={toEvent}>EVENTS</p>
         <p onClick={toProjects}>PROJECTS</p>
         <p onClick={toSociety}>STUDENTS CORNER</p>
-        <p>PLACEMENTS</p>
+        <p onClick={toPlacements}>PLACEMENTS</p>
         <p>ACADAMICS</p>
         <p>CONTACT</p>
       </div>
       <ListIcon onClick={changeToogle} fontSize="large" className="menu" />
 
-     {Click ? 
-      <div className="toggle">
-      <p onClick={toHome}>HOME</p>
-      <p onClick={toAbout}>ABOUT</p>
-      <p>NOTICES</p>
-      <p onClick={toEvent}>EVENTS</p>
-      <p onClick={toProjects}>PROJECTS</p>
-      <p onClick={toSociety}>STUDENTS CORNER</p>
-      <p>PLACEMENTS</p>
-      <p>ACADAMICS</p>
-      <p>CONTACT</p>
-    </div> : null}
+      {Click ? (
+        <div className="toggle">
+          <p onClick={toHome}>HOME</p>
+          <p onClick={toAbout}>ABOUT</p>
+          <p>NOTICES</p>
+          <p onClick={toEvent}>EVENTS</p>
+          <p onClick={toProjects}>PROJECTS</p>
+          <p onClick={toSociety}>STUDENTS CORNER</p>
+          <p onClick={toPlacements}>PLACEMENTS</p>
+          <p>ACADAMICS</p>
+          <p>CONTACT</p>
+        </div>
+      ) : null}
     </div>
   );
 }

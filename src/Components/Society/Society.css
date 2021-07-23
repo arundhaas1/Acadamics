@@ -31,9 +31,9 @@
   margin-bottom: 60px;
 }
 
-.socs{
-    display: flex;
-    justify-content: center;
+.socs {
+  display: flex;
+  justify-content: center;
 }
 
 .society__grid {
@@ -45,15 +45,18 @@
 }
 
 @media (max-width: 1068px) {
-  .society__grid {
+
+  .society{
     
+  }
+  .society__grid {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .socs{
-      width: 100%;
-      display: flex;
-      justify-content: center;
+  .socs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

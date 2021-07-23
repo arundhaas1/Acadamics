@@ -1,0 +1,11 @@
+.students__plan{
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width:768px){
+    .students__plan{
+        display: flex;
+        flex-direction: column;
+    }
+}
