@@ -2,6 +2,7 @@
   margin-top: 50px;
   width: 100%;
   margin-left: 40px;
+
 }
 
 .contact__info > h1 {
@@ -55,4 +56,17 @@
   font-weight: normal;
   color: #6f6f6f;
   font-size: 14px;
+}
+
+@media (max-width:768px){
+  .contact {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 40px;
+  }
+
+  .contact__info > h1 {
+    font-size: 26px;
+  }
+  
 }
