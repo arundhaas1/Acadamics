@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HomeRight.css";
 import SearchIcon from "@material-ui/icons/Search";
 
 function HomeRight() {
+  const [input, setInput] = useState("");
+
+  const changeInput = (e) => {
+    setInput(e.target.value);
+  };
+
+  const data = `https://www.google.com/search?q=${input}&rlz=1C1ONGR_enIN928IN928&oq=arun&aqs=chrome..69i57j46i67j46i67i433j46i433l4j46i67i175i199j0i433j0i271.1020j0j15&sourceid=chrome&ie=UTF-8`;
   return (
     <div className="homeright">
       <div className="right__input">
-        <input placeholder="search..." type="text" />
+        <input onChange={changeInput} placeholder="search..." type="text" />
         <button>
           <SearchIcon fontSize="medium" className="right__icon" />
-          <p className="right__p">Google</p>
+          <p className="right__p">
+            <a href={data}>Google</a>
+          </p>
         </button>
       </div>
 
@@ -72,31 +81,47 @@ function HomeRight() {
       <div className="right__post">
         <h3>RECENT POST</h3>
         <div className="right__1">
-          <img alt="" src="https://vishal2612200.github.io/college-website-design/images/blog/4.jpg" />
+          <img
+            alt=""
+            src="https://vishal2612200.github.io/college-website-design/images/blog/4.jpg"
+          />
           <div className="right__2">
-            <p className="right__2p">4th International Conference on Computers</p>
+            <p className="right__2p">
+              4th International Conference on Computers
+            </p>
             <p className="right_p">28 September, 2018</p>
           </div>
         </div>
 
         <div className="right__1">
-          <img alt="" src="https://vishal2612200.github.io/college-website-design/images/blog/5.jpg" />
+          <img
+            alt=""
+            src="https://vishal2612200.github.io/college-website-design/images/blog/5.jpg"
+          />
           <div className="right__2">
-            <p className="right__2p">Inceptum 2018  </p>
+            <p className="right__2p">Inceptum 2018 </p>
             <p className="right_p">25 September, 2018</p>
           </div>
         </div>
 
         <div className="right__1">
-          <img alt="" src="https://vishal2612200.github.io/college-website-design/images/blog/6.jpg" />
+          <img
+            alt=""
+            src="https://vishal2612200.github.io/college-website-design/images/blog/6.jpg"
+          />
           <div className="right__2">
-            <p className="right__2p">Workshop(Career guidance and Start to Python)</p>
+            <p className="right__2p">
+              Workshop(Career guidance and Start to Python)
+            </p>
             <p className="right_p">27 September, 2018</p>
           </div>
         </div>
 
         <div className="right__1">
-          <img alt="" src="https://vishal2612200.github.io/college-website-design/images/blog/7.jpg" />
+          <img
+            alt=""
+            src="https://vishal2612200.github.io/college-website-design/images/blog/7.jpg"
+          />
           <div className="right__2">
             <p className="right__2p">Academic Calender</p>
             <p className="right_p">27 September, 2018</p>

@@ -30,12 +30,13 @@ function Footer() {
   const toContact = () => {
     history.push("/contact");
   };
-  const changeToogle = () => {
-    setClick(!Click);
-  };
 
   const toSociety = () => {
     history.push("/society");
+  };
+
+  const changeToogle = () => {
+    setClick(!Click);
   };
 
   return (
