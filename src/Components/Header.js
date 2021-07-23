@@ -46,12 +46,16 @@ function Footer() {
       <div className="header__list">
         <p onClick={toHome}>HOME</p>
         <p onClick={toAbout}>ABOUT</p>
-        <p>NOTICES</p>
+        <p>
+          <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=547462">
+            FEES
+          </a>
+        </p>
         <p onClick={toEvent}>EVENTS</p>
         <p onClick={toProjects}>PROJECTS</p>
         <p onClick={toSociety}>STUDENTS CORNER</p>
         <p onClick={toPlacements}>PLACEMENTS</p>
-        <p>ACADAMICS</p>
+        <p onClick={toPlacements}>ACADAMICS</p>
         <p onClick={toContact}>CONTACT</p>
       </div>
       <ListIcon onClick={changeToogle} fontSize="large" className="menu" />
@@ -60,12 +64,16 @@ function Footer() {
         <div className="toggle">
           <p onClick={toHome}>HOME</p>
           <p onClick={toAbout}>ABOUT</p>
-          <p>NOTICES</p>
+          <p>
+            <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=547462">
+              FEES
+            </a>
+          </p>
           <p onClick={toEvent}>EVENTS</p>
           <p onClick={toProjects}>PROJECTS</p>
           <p onClick={toSociety}>STUDENTS CORNER</p>
           <p onClick={toPlacements}>PLACEMENTS</p>
-          <p>ACADAMICS</p>
+          <p onClick={toPlacements}>ACADAMICS</p>
           <p onClick={toContact}>CONTACT</p>
         </div>
       ) : null}
