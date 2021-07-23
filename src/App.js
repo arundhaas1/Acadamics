@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Banner from "./Components/Banner";
 import Students from "./Components/Society/Students";
 import Placements from "./Components/Placements/Placements";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -31,6 +32,11 @@ function App() {
             <Header />
             <Banner />
             <Placements />
+          </Route>
+          <Route path="/contact">
+            <Header />
+            <Banner />
+            <Contact />
           </Route>
           <Route path="/projects">
             <Header />

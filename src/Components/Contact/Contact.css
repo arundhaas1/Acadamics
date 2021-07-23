@@ -1,0 +1,58 @@
+.contact {
+  margin-top: 50px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.contact__info > h1 {
+  color: #292929;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.numbers {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  display: flex;
+  margin-top: 18px;
+}
+
+.number > h3 {
+  display: flex;
+  align-items: center;
+}
+
+.cons__data {
+  margin-left: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ics {
+  color: white;
+  background-color: rgb(185, 74, 74);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.cons__data {
+  margin-top: 20px;
+}
+
+.cons__data > h4 {
+  color: #292929;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cons__data > p {
+  font-weight: normal;
+  color: #6f6f6f;
+  font-size: 14px;
+}

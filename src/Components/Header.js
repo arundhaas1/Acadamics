@@ -27,7 +27,9 @@ function Footer() {
   const toPlacements = () => {
     history.push("/placements");
   };
-
+  const toContact = () => {
+    history.push("/contact");
+  };
   const changeToogle = () => {
     setClick(!Click);
   };
@@ -50,7 +52,7 @@ function Footer() {
         <p onClick={toSociety}>STUDENTS CORNER</p>
         <p onClick={toPlacements}>PLACEMENTS</p>
         <p>ACADAMICS</p>
-        <p>CONTACT</p>
+        <p onClick={toContact}>CONTACT</p>
       </div>
       <ListIcon onClick={changeToogle} fontSize="large" className="menu" />
 
@@ -64,7 +66,7 @@ function Footer() {
           <p onClick={toSociety}>STUDENTS CORNER</p>
           <p onClick={toPlacements}>PLACEMENTS</p>
           <p>ACADAMICS</p>
-          <p>CONTACT</p>
+          <p onClick={toContact}>CONTACT</p>
         </div>
       ) : null}
     </div>

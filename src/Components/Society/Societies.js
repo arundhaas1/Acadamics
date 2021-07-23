@@ -2,7 +2,7 @@ import React from "react";
 import "./Societies.css";
 import LaptopIcon from "@material-ui/icons/Laptop";
 
-function Societies({text}) {
+function Societies({text,icon}) {
   return (
     <div className="societies ">
       <LaptopIcon className="societies__icon" fontSize="large" />

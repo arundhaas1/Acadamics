@@ -1,12 +1,12 @@
-import React,{setState} from "react";
+import React from "react";
 import "./Plan.css";
 
-function Plan({title}) {
+function Plan ({ title }) {
   return (
     <div className="plan">
       <h2>{title}</h2>
       <p>The best to start</p>
-      <h3 className={title==="SPORTS" ? "blue" : "yellow"} >
+      <h3 className={title === "SPORTS" ? "blue" : "yellow"}>
         Free<span> Entry</span>
       </h3>
       <div className="plan__data">
