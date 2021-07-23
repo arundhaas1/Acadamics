@@ -40,26 +40,29 @@
   transition: all 1.0s ease-out;
 }
 
-.societies > p:hover {
+.societies:hover .societies__p{
   position: absolute;
   display: flex;
   font-size: 16px;
   color: #ffffff;
   opacity: 1;
+  z-index: 1;
 }
 
-.societies__icon:hover {
+.societies:hover .societies__icon {
   color: rgb(255, 96, 96);
   padding-bottom: 0px;
   margin-top: -70px;
+  top: 0;
+
   background: #232a34;
 }
 
-.societies > h2:hover {
+.societies:hover .societies > h2 {
   color: rgb(255, 96, 96);
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 
 .societies:hover {
-  border: 2px solid rgb(255, 96, 96);
+  border: 1px solid rgb(255, 96, 96);
 }

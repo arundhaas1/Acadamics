@@ -7,7 +7,7 @@ function Societies() {
     <div className="societies ">
       <LaptopIcon className="societies__icon" fontSize="large" />
       <h2>Abhilaasa</h2>
-      <p>
+      <p className="societies__p">
         Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod,
         tempor incididunt labore et dolore magna aliqua. Ut enim ad minim ut
         veniam, quis nostrud exercitation ullamco aliquip ex ea commodo
