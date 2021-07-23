@@ -2,7 +2,6 @@
   margin-top: 50px;
   width: 100%;
   margin-left: 40px;
-
 }
 
 .contact__info > h1 {
@@ -40,6 +39,13 @@
   background-color: rgb(185, 74, 74);
   border-radius: 50%;
   padding: 15px;
+  cursor: pointer;
+  border: 1px solid rgb(185, 74, 74);
+}
+
+.ics:hover {
+  color: rgb(185, 74, 74);
+  background-color: white;
 }
 
 .cons__data {
@@ -58,7 +64,7 @@
   font-size: 14px;
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .contact {
     margin-top: 50px;
     width: 80%;
@@ -68,5 +74,4 @@
   .contact__info > h1 {
     font-size: 26px;
   }
-  
 }
