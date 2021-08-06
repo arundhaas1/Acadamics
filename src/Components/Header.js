@@ -10,29 +10,42 @@ function Footer() {
 
   const toAbout = () => {
     history.push("/about");
+    setClick(false);
+
   };
 
   const toHome = () => {
     history.push("/");
+    setClick(false);
+
   };
 
   const toEvent = () => {
     history.push("/event");
+    setClick(false);
+
   };
 
   const toProjects = () => {
     history.push("/projects");
+    setClick(false);
   };
 
   const toPlacements = () => {
     history.push("/placements");
+    setClick(false);
+
   };
   const toContact = () => {
     history.push("/contact");
+    setClick(false);
+
   };
 
   const toSociety = () => {
     history.push("/society");
+    setClick(false);
+
   };
 
   const changeToogle = () => {
