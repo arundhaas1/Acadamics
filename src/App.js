@@ -10,11 +10,13 @@ import Banner from "./Components/Banner";
 import Students from "./Components/Society/Students";
 import Placements from "./Components/Placements/Placements";
 import Contact from "./Components/Contact/Contact";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/event">
             <Header />
